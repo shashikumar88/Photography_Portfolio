@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maresh Photography | Professional Photographer</title>
+  <meta name="description" content="Professional photography services specializing in weddings, portraits, and events. Capturing timeless moments with artistic vision.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="mareshlogo.jpg" alt="Maresh Photography Logo" height="60" width="100">
+      </div>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="social-nav">
+        <a href="https://www.youtube.com/@mareshphotography3128" target="_blank" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/mareshphotography/" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#contact" class="btn btn-primary">Book a Session</a>
+      </div>
+      
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-slider">
+      <div class="slide active">
+        <div class="slide-content">
+          <h1>Capture Your Precious Moments</h1>
+          <p>Professional photography that tells your unique story</p>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-content">
+          <h1>Wedding Photography</h1>
+          <p>Timeless memories of your special day</p>
+          <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-content">
+          <h1>Portrait Sessions</h1>
+          <p>Beautiful, natural portraits that capture your essence</p>
+          <a href="#services" class="btn btn-secondary">Our Services</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="prev-slide" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+      <button class="next-slide" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="intro-section">
+    <div class="container">
+      <h2 class="section-title">Photographer | Videographer | Editor</h2>
+      <div class="intro-content">
+        <p>Welcome to Maresh Photography, where we specialize in capturing life's most precious moments with artistry and passion. With over a decade of experience, we create images that tell your unique story with authenticity and beauty.</p>
+        
+        <div class="specialties">
+          <div class="specialty">
+            <i class="fas fa-camera-retro"></i>
+            <h3>Weddings</h3>
+            <p>Timeless coverage of your special day</p>
+          </div>
+          <div class="specialty">
+            <i class="fas fa-portrait"></i>
+            <h3>Portraits</h3>
+            <p>Beautiful, natural images that capture your essence</p>
+          </div>
+          <div class="specialty">
+            <i class="fas fa-video"></i>
+            <h3>Videography</h3>
+            <p>Cinematic storytelling of your events</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="mareshimg.jpg" alt="Maresh - Professional Photographer" loading="lazy">
+        </div>
+        <div class="about-content">
+          <h2 class="section-title">About Me</h2>
+          <p class="lead">Hi, I'm Maresh - the creative eye behind Maresh Photography.</p>
+          <p>Photography isn't just my profession—it's my passion. I specialize in capturing life's most meaningful moments with authenticity and a touch of artistry. Whether it's a wedding, portrait session, or special event, my goal is always the same: to turn memories into timeless visuals.</p>
+          <p>I take pride in my cinematic style and attention to detail that help bring each story to life. Every frame I shoot is crafted to reflect the emotion, energy, and essence of the moment.</p>
+          
+          <div class="signature">
+            <img src="" alt="Maresh's Signature" loading="lazy">
+          </div>
+          
+          <div class="awards">
+            <h3>Recognitions & Awards</h3>
+            <ul>
+              <li>Best Wedding Photography 2022</li>
+              <li>Featured in Photography Magazine</li>
+              <li>10+ Years of Professional Experience</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Our Gallery</h2>
+      <p class="section-subtitle">A glimpse of our recent work</p>
+      
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="portrait">Portraits</button>
+        <button class="filter-btn" data-filter="event">Events</button>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item wedding">
+          <img src="https://media.istockphoto.com/id/1279103458/photo/capture-this-moment.jpg?s=612x612&w=0&k=20&c=ZFEne33VwwdfWkKLeA4_rm6LS28TYMaMAbBdh6BR3kI=" alt="Wedding Photography" loading="lazy">
+          <div class="overlay">
+            <h3>Wedding Day</h3>
+            <p>Beautiful moments captured</p>
+          </div>
+        </div>
+        <div class="gallery-item portrait">
+          <img src="https://www.anthropics.com/portraitpro/img/page-images/homepage/v24/out-now.jpg" alt="Portrait Photography" loading="lazy">
+          <div class="overlay">
+            <h3>Portrait Session</h3>
+            <p>Natural and elegant</p>
+          </div>
+        </div>
+        <div class="gallery-item wedding">
+          <img src="data:image/jpeg;base64,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" alt="Wedding Photography" loading="lazy">
+          <div class="overlay">
+            <h3>Bridal Portraits</h3>
+            <p>Timeless beauty</p>
+          </div>
+        </div>
+        <div class="gallery-item event">
+          <img src="https://www.oyorooms.com/blog/wp-content/uploads/2018/03/fe-30.jpg" alt="Event Photography" loading="lazy">
+          <div class="overlay">
+            <h3>Corporate Event</h3>
+            <p>Professional coverage</p>
+          </div>
+        </div>
+        <div class="gallery-item portrait">
+          <img src="https://onebighappyphoto.com/wp-content/uploads/family-professional-pictures-1-1547-One-Big-Happy-Photo.jpg" alt="Portrait Photography" loading="lazy">
+          <div class="overlay">
+            <h3>Family Portraits</h3>
+            <p>Cherished memories</p>
+          </div>
+        </div>
+        <div class="gallery-item wedding">
+          <img src="https://zerogravity.photography/wp-content/uploads/2024/12/HEM07320-copy.webp" alt="Wedding Photography" loading="lazy">
+          <div class="overlay">
+            <h3>Candid Moments</h3>
+            <p>Emotions captured</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <a href="#" class="btn btn-primary">View Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-subtitle">Professional photography for all occasions</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-ring"></i>
+          </div>
+          <h3>Wedding Photography</h3>
+          <p>Full-day coverage of your wedding with a team of professionals to capture every special moment.</p>
+          <ul>
+            <li>Pre-wedding shoot</li>
+            <li>Full day coverage</li>
+            <li>500+ edited photos</li>
+            <li>Online gallery</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Inquire Now</a>
+        </div>
+        
+        <div class="service-card featured">
+          <div class="service-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3>Engagement Sessions</h3>
+          <p>Romantic and fun sessions to celebrate your love story before the big day.</p>
+          <ul>
+            <li>2-hour session</li>
+            <li>2 locations</li>
+            <li>50+ edited photos</li>
+            <li>Online gallery</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Book Session</a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Portrait Photography</h3>
+          <p>Beautiful portraits for individuals, couples, families, and professionals.</p>
+          <ul>
+            <li>1-hour session</li>
+            <li>1 location</li>
+            <li>30+ edited photos</li>
+            <li>Online gallery</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <h2 class="section-title">Client Testimonials</h2>
+      <p class="section-subtitle">What our clients say about us</p>
+      
+      <div class="testimonials-slider">
+        <div class="testimonial active">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Maresh captured our wedding day perfectly! The photos are stunning and truly reflect the emotions of the day. We couldn't be happier!"</p>
+            <div class="client-info">
+              <img src="client1.jpg" alt="Sarah & James" loading="lazy">
+              <div>
+                <h4>Sarah & James</h4>
+                <span>Wedding Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"The family portraits we got are absolutely beautiful. Maresh made us all feel comfortable and the results speak for themselves."</p>
+            <div class="client-info">
+              <img src="client2.jpg" alt="The Johnson Family" loading="lazy">
+              <div>
+                <h4>The Johnson Family</h4>
+                <span>Portrait Session</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>"Professional, talented, and wonderful to work with. Our corporate event was captured beautifully and we've received so many compliments!"</p>
+            <div class="client-info">
+              <img src="client3.jpg" alt="Michael Thompson" loading="lazy">
+              <div>
+                <h4>Michael Thompson</h4>
+                <span>Corporate Client</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-controls">
+        <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="testimonial-dots"></div>
+        <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Find answers to common questions</p>
+      
+      <div class="faq-grid">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How far in advance should we book?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>For weddings, we recommend booking 6-12 months in advance, especially for popular dates. Portrait sessions can typically be booked 2-4 weeks in advance, but we occasionally have last-minute availability.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What is your photography style?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>My style is a blend of documentary and fine art photography. I capture authentic moments as they happen while also creating beautifully composed images with attention to light, composition, and emotion.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you travel for shoots?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! I'm available for travel both nationally and internationally. Travel fees apply for locations outside my standard service area, which we can discuss when planning your session.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long until we receive our photos?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Portrait sessions are typically delivered within 2-3 weeks. Weddings take 6-8 weeks for full delivery due to the volume of images. You'll receive a sneak peek within a few days of your event.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What should we wear for our session?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>I provide all clients with a detailed style guide after booking. Generally, choose outfits that reflect your personality, coordinate without matching exactly, and avoid busy patterns or logos.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you offer videography services?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We have a team of professional videographers who work alongside me to create beautiful cinematic films. You can book photography and videography separately or as a package.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's create something beautiful together</p>
+          
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>info@mareshphotography.com</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Studio Locations</h3>
+              <p>Sathupally, Telangana</p>
+              <p>Hyderabad, Telangana</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="photography-contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Your Name</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Email Address</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone">
+              <label for="phone">Phone Number</label>
+            </div>
+            
+            <div class="form-group">
+              <select id="service" name="service" required>
+                <option value="" disabled selected></option>
+                <option value="wedding">Wedding Photography</option>
+                <option value="engagement">Engagement Session</option>
+                <option value="portrait">Portrait Session</option>
+                <option value="event">Event Coverage</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="service">Service Interested In</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="mareshlogo.jpg" alt="Maresh Photography Logo" class="footer-logo">
+          <p>Capturing life's precious moments with artistry and passion. Professional photography services for weddings, portraits, and special events.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Wedding Photography</a></li>
+            <li><a href="#">Engagement Sessions</a></li>
+            <li><a href="#">Portrait Photography</a></li>
+            <li><a href="#">Event Coverage</a></li>
+            <li><a href="#">Videography</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> info@mareshphotography.com</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-map-marker-alt"></i> Sathupally & Hyderabad, Telangana</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 Maresh Photography. All Rights Reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
